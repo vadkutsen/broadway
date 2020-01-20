@@ -25,7 +25,7 @@
 
         <ul class="nav navbar-nav">
           <li class="dropdown">
-            <a class="dropdown-toggle" href="#" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sort<span class="caret"></span></a>
+            <a class="dropdown-toggle" href="#" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genres<span class="caret"></span></a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <% Category.all.each do |category| %>
                 <li class="<%= 'active' if params[:category] == category.name %>">
